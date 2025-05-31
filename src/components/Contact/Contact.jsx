@@ -70,8 +70,8 @@ export default function Contact(){
           </div>
           <div className={`flex items-center gap-4 ${styles.contactresume}`}>
             <FaPhoneAlt className={`text-green-600 text-2xl ${styles.ico}`} />
-            <a href="tel:2348068025726" className="hover:underline" target="_blank" rel="noopener noreferrer">
-              +234 80 680 25726
+            <a href="tel:2349068025726" className="hover:underline" target="_blank" rel="noopener noreferrer">
+              +234 90 680 25726
             </a>
           </div>
           <div className={`flex items-center gap-4 ${styles.contactresume}`}>
