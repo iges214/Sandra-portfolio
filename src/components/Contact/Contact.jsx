@@ -59,7 +59,7 @@ export default function Contact(){
   return (
   <section id="contact" className={`z-40 px-6 py-16 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white ${styles.contactsec}`} >
     <div className={`z-40 ${styles.contactcontainer}`}>
-      <div className={`${styles.leftcontact}`}>
+      <div className={`${styles.leftcontact} pb-8`}>
          <h2 className={`text-4xl font-bold mb-8 text-start ${styles.contactresume}`}>Contact Me</h2>
         <div className=" space-y-6 text-center md:text-center">
           <div className={`flex items-center gap-4 ${styles.contactresume}`}>
