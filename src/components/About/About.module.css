@@ -1,0 +1,37 @@
+.about {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+}
+.aboutcont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  justify-items: center;
+  gap: 15px;
+}
+.edu {
+  box-shadow: 2px 2px 5px 0px rgba(252, 80, 123, 0.3);
+}
+.abtimg {
+  box-shadow: 2px 2px 5px 0px rgba(252, 80, 123, 0.3);
+}
+.eduhead {
+  color: #fc507b;
+}
+@media screen and (max-width: 768px) {
+  .aboutcont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .abtimg {
+    order: 0;
+    align-self: center;
+    justify-self: center;
+  }
+  .abtcontent {
+    order: 1;
+  }
+}

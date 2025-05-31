@@ -1,0 +1,24 @@
+.Nav {
+  padding-top: 10px;
+  font-size: 20px !important;
+  margin-bottom: 1em;
+}
+ul li a {
+  border-radius: 5px;
+}
+ul li a:hover {
+  background-color: #fc507b;
+  color: #fff;
+}
+.cv {
+  border: 1px solid #fc507b;
+}
+.cv:hover {
+  background-color: #fc507b;
+}
+.resume {
+  border: 1px solid #fc507b;
+}
+.sidebaricons {
+  color: #fc507b;
+}

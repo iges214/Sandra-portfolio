@@ -1,0 +1,44 @@
+.contactsec {
+  width: 100%;
+  position: relative;
+}
+.contactcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  gap: 5px;
+}
+.leftcontact {
+  width: 40%;
+}
+.formcontainer {
+  width: 60%;
+}
+.contactresume {
+  justify-self: start;
+}
+.resumebtn {
+  background-color: rgb(252, 80, 123);
+  color: #fff;
+  border: 2px solid #fc507b;
+}
+@media screen and (max-width: 768px) {
+  .contactcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .leftcontact {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .formcontainer {
+    width: 100%;
+  }
+  .contactresume {
+    justify-self: center;
+  }
+}

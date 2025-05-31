@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+.zindex {
+  z-index: 99;
+}
+.border-1 {
+  border: 1px solid #fc507b;
+}

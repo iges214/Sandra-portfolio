@@ -1,0 +1,66 @@
+.Container {
+  margin: 0;
+  background-color: #f11b50;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  z-index: 99;
+}
+
+.Navcontent {
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  padding-top: 60px;
+}
+.Picdiv {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+.Pic {
+  align-content: end;
+  margin-left: 0;
+  height: 100px;
+  background-size: contain;
+}
+.im {
+  height: 100%;
+  width: 100%;
+}
+
+.Navhead {
+  font-weight: 900;
+  padding-top: 30px;
+}
+.heropara {
+  padding: 20px 0 10px 0;
+  font-size: 20px;
+}
+.navtbts {
+  padding-top: 30px;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  width: 100%;
+}
+.resumebtn {
+  background-color: rgb(252, 80, 123);
+  color: #fff;
+  border: 2px solid #fc507b;
+}
+.contactbtn {
+  color: #000;
+  border: 1px solid #fc507b;
+}
+.contactbtn:hover {
+  background-color: #fc507b;
+  color: #fff;
+}
+@media screen and (max-width: 1000px) {
+  .Navhead {
+    padding-top: 0px;
+  }
+}
