@@ -60,21 +60,21 @@ export default function Contact(){
   <section id="contact" className={`z-40 px-6 py-16 bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-white ${styles.contactsec}`} >
     <div className={`z-40 ${styles.contactcontainer}`}>
       <div className={`${styles.leftcontact} pb-8`}>
-         <h2 className={`text-4xl font-bold mb-8 text-start ${styles.contactresume}`}>Contact Me</h2>
+         <h2 className={`text-4xl font-bold mb-8 text-start`}>Contact Me</h2>
         <div className=" space-y-6 text-center md:text-center">
-          <div className={`flex items-center gap-4 ${styles.contactresume}`}>
+          <div className={`flex items-center gap-4`}>
             <FaEnvelope className={`text-blue-600 text-2xl ${styles.ico}`}/>
             <a href="mailto:ighosandra@yahoo.com" className="hover:underline">
               ighosandra@yahoo.com
             </a>
           </div>
-          <div className={`flex items-center gap-4 ${styles.contactresume}`}>
+          <div className={`flex items-center gap-4`}>
             <FaPhoneAlt className={`text-green-600 text-2xl ${styles.ico}`} />
             <a href="tel:2349068025726" className="hover:underline" target="_blank" rel="noopener noreferrer">
               +234 90 680 25726
             </a>
           </div>
-          <div className={`flex items-center gap-4 ${styles.contactresume}`}>
+          <div className={`flex items-center gap-4`}>
             <FaLinkedin className={` text-blue-500 text-2xl ${styles.ico}`} />
             <a href="https://www.linkedin.com/in/sandra-ighoyivwi-bbb231256" className="hover:underline" target="_blank" rel="noopener noreferrer">
               LinkedIn Profile

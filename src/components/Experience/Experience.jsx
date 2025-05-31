@@ -13,22 +13,23 @@ const experiences = [
     company: 'Codeit',
     logo: codeitLogo,
     duration: '2024 - 2025',
-    description: 'Worked on UI/UX of client-facing applications using React, Tailwind CSS, and APIs.'
+    description: 'Collaborated with backend teams to implement modern UI component using React.js. Translated UI/UX wireframes into high quality code. Used Git for version control and worked with REST APIs to integrate dynamic contents'
+  },
+    {
+    role: 'Budget and regional planning officer',
+    company: 'Jos South Secretariat',
+    logo: josLogo,
+    duration: '2023 - 2024',
+    description: 'Helped in organizing the yearly budget sheet for the state using Excel. Contributed to developing an application with html, bootstrap, javascript and API’s for setting yearly budgets and exporting them as downloadable documents.'
   },
   {
-    role: 'IT Support Staff',
+    role: 'Internship Training',
     company: 'Interkel Nigeria Limited',
     logo: interkelLogo,
     duration: '2021',
-    description: 'Provided technical support and maintained internal systems.'
-  },
-  {
-    role: 'NYSC Staff',
-    company: 'Jos South Secretariat',
-    logo: josLogo,
-    duration: '2022',
-    description: 'Performed IT and administrative support tasks during NYSC service year.'
+    description: 'Gained hands-on experience in frontend technologies during IT placement. Assisted in building UI components and maintaining legacy codebases.'
   }
+
 ]
 
 const Experience = () => {
