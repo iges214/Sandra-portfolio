@@ -82,7 +82,7 @@ export default function Contact(){
           </div>
           <div className={`mt-20 transition-transform duration-200 hover:scale-105 ${styles.contactresume}`}>
             <a 
-              href="/cv.pdf" 
+              href="/cv.pdf?v=1" 
               target="_blank" 
               rel="noopener noreferrer"
               className={`px-4 py-2 rounded transition-transform duration-200 hover:scale-105 ${styles.resumebtn}`}

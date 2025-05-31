@@ -38,7 +38,7 @@ export default function Sidebar({ isOpen, toggle }) {
         </div>
 
         <a
-          href="/cv.pdf"
+          href="/cv.pdf?v=1"
           target="_blank"
           rel="noopener noreferrer"
           className={`py-2 px-3 rounded text-gray-900 dark:text-gray-100 text-sm font-semibold hover:bg-[#fc507b] border-1`}

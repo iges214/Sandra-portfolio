@@ -55,7 +55,7 @@ export default function Navbar() {
 
           {/* Center: CV + Toggle (only on mobile) */}
           <div className="absolute left-1/3 transform -translate-x-1/2 flex gap-2 items-left xlNav:hidden">
-            <a href="/cv.pdf" target="_blank"
+            <a href="/cv.pdf?v=1" target="_blank"
                 rel="noopener noreferrer" className={`p-2 rounded ${styles.cv}`}>CV</a>
             <DarkModeToggle />
           </div>
@@ -85,7 +85,7 @@ export default function Navbar() {
             ))}
             <li>
               <a
-                href="/cv.pdf"
+                href="/cv.pdf?v=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`p-3 py-2.5 rounded ${styles.resume}`}
