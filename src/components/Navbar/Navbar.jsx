@@ -13,7 +13,7 @@ export default function Navbar() {
 
   const handleScroll = () => {
     const scrollY = window.scrollY
-    const sections = ['hero', 'about', 'skills', 'contact']
+    const sections = ['hero', 'about', 'skills', 'experience', 'projects', 'contact']
 
     // Make navbar fixed only after scrolling 80px down
     if (scrollY > 80) {
@@ -72,7 +72,7 @@ export default function Navbar() {
 
           {/* Desktop Nav */}
           <ul className="hidden xlNav:flex gap-4 items-center ml-auto">
-            {['hero', 'about', 'skills', 'contact'].map(id => (
+            {['hero', 'about', 'skills', 'experience', 'projects', 'contact'].map(id => (
               <li key={id}>
                 <a
                   href={`#${id}`}

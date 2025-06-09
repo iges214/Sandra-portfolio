@@ -12,3 +12,6 @@ html {
 .border-1 {
   border: 1px solid #fc507b;
 }
+.boxshadow {
+  box-shadow: 2px 2px 5px 0px rgba(252, 80, 123, 0.3);
+}

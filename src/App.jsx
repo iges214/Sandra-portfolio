@@ -6,6 +6,7 @@ import Loader from './components/Loader/Loader'
 import Footer from './components/Footer/Footer'
 import Skills from './components/Skills/Skills'
 import Experience from './components/Experience/Experience'
+import Projects from './components/Projects/Projects'
 import styles from "./app.module.css"
 import { useEffect } from 'react'
 
@@ -27,6 +28,7 @@ function App() {
       <About />
       <Skills />
       <Experience/>
+      <Projects/>
       <Contact />
       <Footer/>
     </div>
