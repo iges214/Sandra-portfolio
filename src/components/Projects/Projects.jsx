@@ -9,7 +9,7 @@
 
 import React from "react";
 import ProjectCard from "./ProjectCard";
-// import memoryGameScreenshot from "../../assets/projectimg/pccardimg.png";
+import memoryGameScreenshot from "../../assets/projectimg/pccardimg.png";
 
 const Projects = () => {
   const projects = [
@@ -20,7 +20,7 @@ const Projects = () => {
       techStack: ["JavaScript", "HTML", "CSS", "LocalStorage"],
       projectUrl: "https://findoji.netlify.app",
       repoUrl: "https://github.com/iges214/FindGame.git",
-      imageUrl: "../../src/assets/projectimg/pccardimg.png",
+      imageUrl: memoryGameScreenshot,
     },
     // add more projects here...
   ];
