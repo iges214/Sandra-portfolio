@@ -15,3 +15,6 @@ html {
 .boxshadow {
   box-shadow: 2px 2px 5px 0px rgba(252, 80, 123, 0.3);
 }
+.boxshadowhover {
+  box-shadow: 5px 5px 5px 5px rgba(252, 80, 123, 0.3);
+}

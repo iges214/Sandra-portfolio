@@ -1,15 +1,7 @@
-// export default function Project() {
-//   return (
-//     <section className="p-8 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-white">
-//       <h2 className="text-3xl font-bold mb-4">Projects</h2>
-//       <p>Check out some of the projects I've worked on!</p>
-//     </section>
-//   )
-// }
 
-import React from "react";
 import ProjectCard from "./ProjectCard";
 import memoryGameScreenshot from "../../assets/projectimg/pccardimg.png";
+import portfolioScreenshot from "../../assets/projectimg/portfolioimg.png";
 
 const Projects = () => {
   const projects = [
@@ -22,7 +14,14 @@ const Projects = () => {
       repoUrl: "https://github.com/iges214/FindGame.git",
       imageUrl: memoryGameScreenshot,
     },
-    // add more projects here...
+     {
+      title: "My Portfolio",
+      description: "My personal portfolio is a responsive, modern single-page application designed to showcase my frontend development skills, projects, and experience. Built with React.js and styled using Tailwind CSS, it emphasizes clean design, smooth animations, and accessibility.",
+      techStack: ["React.js", "css", "Tailwind CSS", "JavaScript", "Git", "Netlify"],
+      projectUrl: "https://iamsandra.netlify.app/",
+      repoUrl: "https://github.com/iges214/Sandra-portfolio.git",
+      imageUrl: portfolioScreenshot,
+    },
   ];
 
   return (
